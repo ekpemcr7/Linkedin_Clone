@@ -69,7 +69,7 @@ function Feed() {
         </div>
       </div>
 
-      {/* POsts */}
+      {/* Posts */}
       {posts.map(({ id, data: { name, description, message, photoUrl } }) => (
         <Post
           key={id}
